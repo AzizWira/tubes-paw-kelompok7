@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* TES PENGETAHUAN */}
           <li>
             <NavLink
-              to="/tes-pengetahuan"
+              to="/kuis"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Tes Pengetahuan

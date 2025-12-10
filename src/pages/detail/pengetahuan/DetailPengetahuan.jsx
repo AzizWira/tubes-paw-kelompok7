@@ -1,10 +1,11 @@
 // src/pages/detail/pengetahuan/DetailPengetahuan.jsx
 import { useEffect, useRef, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { pengetahuanWali } from "../../../data/pengetahuanwali.js";
 
 export default function DetailPengetahuan() {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const wali = pengetahuanWali.find((w) => w.slug === slug);
 
   const audioBiografiRef = useRef(null);
@@ -97,6 +98,17 @@ export default function DetailPengetahuan() {
     setCurrentAudio(audio);
     setActiveType(type);
     setIsPlaying(false);
+  };
+
+  // klik "Tes Pengetahuan Anda"
+  const handleGoToQuiz = () => {
+    // kalau di data ada quizUrl, pakai itu
+    if (wali.quizUrl) {
+      navigate(wali.quizUrl);
+    } else {
+      // fallback: pakai slug yang sama dengan path kuis
+      navigate(`/kuis/${slug}`);
+    }
   };
 
   if (!wali) {
@@ -332,11 +344,14 @@ export default function DetailPengetahuan() {
                 className="desc-preview"
                 dangerouslySetInnerHTML={{ __html: wali.previewText }}
               ></p>
-              <a href={wali.quizUrl}>
-                <button className="btn-test-knowledge">
-                  Tes Pengetahuan Anda
-                </button>
-              </a>
+
+              <button
+                className="btn-test-knowledge"
+                type="button"
+                onClick={handleGoToQuiz}
+              >
+                Tes Pengetahuan Anda
+              </button>
             </div>
           </div>
         </div>

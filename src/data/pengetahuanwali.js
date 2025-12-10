@@ -82,7 +82,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Ampel ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Ampel!",
 
-    quizUrl: "/Page/Kuis/sunan-ampel.html",
+    quizUrl: "/kuis/sunan-ampel",
   },
 
   // =====================================================
@@ -159,7 +159,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Bonang ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Bonang!",
 
-    quizUrl: "/Page/Kuis/sunan-bonang.html",
+    quizUrl: "/kuis/sunan-bonang",
   },
 
   // =====================================================
@@ -249,7 +249,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Drajat ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Drajat!",
 
-    quizUrl: "/Page/Kuis/sunan-drajat.html",
+    quizUrl: "/kuis/sunan-drajat",
   },
 
   // =====================================================
@@ -326,7 +326,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Giri ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Giri!",
 
-    quizUrl: "/Page/Kuis/sunan-giri.html",
+    quizUrl: "/kuis/sunan-giri",
   },
 
   // =====================================================
@@ -422,7 +422,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Gresik ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Gresik!",
 
-    quizUrl: "/Page/Kuis/sunan-gresik.html",
+    quizUrl: "/kuis/sunan-gresik",
   },
 
   // =====================================================
@@ -516,7 +516,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Gunung Jati ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Gunung Jati!",
 
-    quizUrl: "/Page/Kuis/sunan-gunung-jati.html",
+    quizUrl: "/kuis/sunan-gunung-jati",
   },
 
   // =====================================================
@@ -603,7 +603,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Kalijaga ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Kalijaga!",
 
-    quizUrl: "/Page/Kuis/sunan-kalijaga.html",
+    quizUrl: "/kuis/sunan-kalijaga",
   },
 
   // =====================================================
@@ -709,7 +709,7 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Kudus ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Kudus!",
 
-    quizUrl: "/Page/Kuis/sunan-kudus.html",
+    quizUrl: "/kuis/sunan-kudus",
   },
 
   // =====================================================
@@ -806,6 +806,6 @@ export const pengetahuanWali = [
     previewText:
       "Gimana nih, apakah anda sudah membaca atau mendengarkan dari biografi sampai pendekatan kultural dari Sunan Muria ini?, Yuk sekarang tes pengetahuan anda seputar kearifan spiritual Sunan Muria!",
 
-    quizUrl: "/Page/Kuis/sunan-muria.html",
+    quizUrl: "/kuis/sunan-muria",
   },
 ];
